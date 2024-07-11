@@ -1,1 +1,27 @@
-{}
+{
+  "DEMO_CONFIG": {
+    "description": "for testing",
+    "items": [
+      {
+        "value": 1,
+        "effective_until": "2024-07-11T06:40+06:00"
+      },
+      {
+        "value": 1,
+        "effective_from": "2024-07-11T06:40+06:00",
+        "effective_until": "2024-07-11T06:50+06:00",
+        "reason": "test 1"
+      },
+      {
+        "value": 2,
+        "effective_from": "2024-07-11T06:50+06:00",
+        "effective_until": "2024-07-11T07:00+06:00",
+        "reason": "test 2"
+      },
+      {
+        "value": 1,
+        "effective_from": "2024-07-11T07:00+06:00"
+      }
+    ]
+  }
+}
