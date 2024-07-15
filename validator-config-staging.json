@@ -1,1 +1,11 @@
-{}
+{
+  "DYNAMIC_MANIFEST_SCORE_MULTIPLIER": {
+    "description": "The bonus rate for miners changing their horde size",
+    "items": [
+      {
+        "value": 1.2,
+        "reason": "for testing!"
+      }
+    ]
+  }
+}
