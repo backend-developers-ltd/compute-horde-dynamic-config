@@ -1,1 +1,11 @@
-{}
+{
+  "DYNAMIC_WEIGHTS_VERSION": {
+    "description": "The weights version for synthetic jobs",
+    "items": [
+      {
+        "value": 2,
+        "reason": "enable anti weight copying dance"
+      }
+    ]
+  }
+}
