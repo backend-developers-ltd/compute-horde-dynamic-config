@@ -1,4 +1,13 @@
 {
+  "DYNAMIC_WEIGHTS_VERSION": {
+    "description": "The weights version for synthetic jobs",
+    "items": [
+      {
+        "value": 2,
+        "reason": "for testing!"
+      }
+    ]
+  },
   "DYNAMIC_MANIFEST_SCORE_MULTIPLIER": {
     "description": "The bonus rate for miners changing their horde size",
     "items": [
