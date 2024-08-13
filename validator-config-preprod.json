@@ -12,7 +12,7 @@
     "description": "The synthetic jobs flow version",
     "items": [
       {
-        "value": 1,
+        "value": 2,
         "reason": "for testing!"
       }
     ]
