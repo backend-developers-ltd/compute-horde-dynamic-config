@@ -8,6 +8,15 @@
       }
     ]
   },
+  "DYNAMIC_SYNTHETIC_JOBS_FLOW_VERSION": {
+    "description": "The synthetic jobs flow version",
+    "items": [
+      {
+        "value": 2,
+        "reason": "enable more robust validator job timing and scoring"
+      }
+    ]
+  },
   "DYNAMIC_MANIFEST_SCORE_MULTIPLIER": {
     "description": "The bonus rate for miners changing their horde size",
     "items": [
