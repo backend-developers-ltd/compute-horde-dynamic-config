@@ -4,7 +4,7 @@
     "items": [
       {
         "value": 2,
-        "reason": "for testing!"
+        "reason": "enable anti weight copying dance"
       }
     ]
   },
@@ -13,7 +13,7 @@
     "items": [
       {
         "value": 2,
-        "reason": "for testing!"
+        "reason": "enable more robust validator job timing and scoring"
       }
     ]
   },
@@ -22,7 +22,43 @@
     "items": [
       {
         "value": 1.1,
-        "reason": "for testing!"
+        "reason": "anti weight copying bonus"
+      }
+    ]
+  },
+  "DYNAMIC_BLOCK_FINALIZATION_NUMBER": {
+    "description": "After this many blocks pass, a block can be considered final",
+    "items": [
+      {
+        "value": 3,
+        "reason": "Before 3 blocks pass, subtensor may be in disagreement"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_WEIGHTS_ENABLED": {
+    "description": "This should be synced with the hyperparam",
+    "items": [
+      {
+        "value": true,
+        "reason": "True"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_WEIGHTS_INTERVAL": {
+    "description": "In blocks. This should be synced with the hyperparam",
+    "items": [
+      {
+        "value": 370,
+        "reason": "This value assures the reveal happens in the next epoch"
+      }
+    ]
+  },
+  "DYNAMIC_MAX_WEIGHT": {
+    "description": "This should be synced with the hyperparam",
+    "items": [
+      {
+        "value": 65535,
+        "reason": "Default value"
       }
     ]
   }
