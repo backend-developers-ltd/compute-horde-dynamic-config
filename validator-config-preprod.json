@@ -3,7 +3,7 @@
     "description": "The weights version for synthetic jobs",
     "items": [
       {
-        "value": 2,
+        "value": 3,
         "reason": "enable anti weight copying dance"
       }
     ]
