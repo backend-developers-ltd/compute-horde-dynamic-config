@@ -5,6 +5,11 @@
       {
         "value": 2,
         "reason": "enable anti weight copying dance"
+      },
+      {
+        "value": 3,
+        "reason": "binary score (0 or 1 * dancing bonus)",
+        "effective_from": "2024-08-29 06:28:24"
       }
     ]
   },
@@ -23,6 +28,11 @@
       {
         "value": 1.15,
         "reason": "anti weight copying bonus"
+      },
+      {
+        "value": 3.0,
+        "reason": "anti weight copying bonus from 15% -> 200%",
+        "effective_from": "2024-08-29 06:28:24"
       }
     ]
   },
