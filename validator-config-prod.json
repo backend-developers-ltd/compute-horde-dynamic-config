@@ -38,7 +38,7 @@
         "value": 1.3,
         "reason": "anti weight copying bonus from 200 -> 30%",
         "effective_from": "2024-09-16T09:25:00.000Z"
-      },
+      }
     ]
   },
   "DYNAMIC_BLOCK_FINALIZATION_NUMBER": {
