@@ -48,8 +48,26 @@
     "description": "In blocks. This should be synced with the hyperparam",
     "items": [
       {
-        "value": 370,
-        "reason": "This value assures the reveal happens in the next epoch"
+	"value": 722,
+	"reason": "This value assures the reveal happens after two epochs"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_START_OFFSET": {
+    "description": "In blocks",
+    "items": [
+      {
+	"value": 361,
+	"reason": "This value assures commiting starts in the second epoch of the cycle"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_END_BUFFER": {
+    "description": "In blocks",
+    "items": [
+      {
+	"value": 15,
+	"reason": "This value establishes a buffer to stop commiting in advance before revealing starts"
       }
     ]
   },
