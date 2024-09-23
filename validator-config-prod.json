@@ -63,8 +63,35 @@
     "description": "In blocks. This should be synced with the hyperparam",
     "items": [
       {
-        "value": 370,
-        "reason": "This value assures the reveal happens in the next epoch"
+	"value": 722,
+	"reason": "This value assures the reveal happens after two epochs"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_START_OFFSET": {
+    "description": "In blocks. The offset separating commit and reveal windows in the commit-reveal interval",
+    "items": [
+      {
+	"value": 361,
+	"reason": "Use the first epoch for revealing and the second for committing"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_END_BUFFER": {
+    "description": "In blocks. The buffer at the end of the commit window, in which no further commiting allowed.",
+    "items": [
+      {
+	"value": 15,
+	"reason": "Ensure commiting does not happen outside of the window"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_REVEAL_END_BUFFER": {
+    "description": "In blocks. The buffer at the end of the reveal window, in which no further revealing allowed.",
+    "items": [
+      {
+	"value": 15,
+	"reason": "Ensure revealing does not happend outside of the window"
       }
     ]
   },
