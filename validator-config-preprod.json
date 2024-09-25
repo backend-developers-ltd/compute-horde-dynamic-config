@@ -21,7 +21,7 @@
     "description": "The bonus rate for miners changing their horde size",
     "items": [
       {
-        "value": 1.1,
+        "value": 1.3,
         "reason": "anti weight copying bonus"
       }
     ]
