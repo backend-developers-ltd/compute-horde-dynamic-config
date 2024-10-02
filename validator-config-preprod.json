@@ -3,8 +3,8 @@
     "description": "The weights version for synthetic jobs",
     "items": [
       {
-        "value": 3,
-        "reason": "enable anti weight copying dance"
+        "value": 4,
+        "reason": "optimized hashcat jobs delivery"
       }
     ]
   },
