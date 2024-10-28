@@ -108,5 +108,14 @@
         "reason": "Default value"
       }
     ]
-  }
+  },
+    "DYNAMIC_EXECUTOR_CLASS_WEIGHTS": {
+        "description": "executor class weights",
+        "items": [
+            {
+                "value": "spin_up-4min.gpu-24gb=95,always_on.llm.a6000=5",
+                "reason": "Increase a6000 class weight to 5%"
+            }
+        ]
+    }
 }
