@@ -140,5 +140,14 @@
 			"reason": "support higher number of executors"
 		 }
 	    ]
+    },
+    "DYNAMIC_MINER_MAX_EXECUTORS_PER_CLASS": {
+	    "description": "executor class limits",
+	    "items": [
+		 {
+			"value": "always_on.llm.a6000=5",
+			"reason": "support higher number of executors"
+		 }
+	    ]
     }
 }
