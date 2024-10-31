@@ -102,5 +102,23 @@
 		"effective_from": "2024-10-29T22:14:24.000Z"
             }
         ]
+    },
+    "DYNAMIC_MAX_PROMPT_SERIES": {
+	 "description": "pregenerated prompt series count",
+	 "items": [
+		 {
+			"value": 3840,
+			"reason": "support higher number of executors"
+		 }
+	 ]
+    },
+    "DYNAMIC_TARGET_NUMBER_OF_PROMPT_SAMPLES_READY": {
+	    "description": "prepared answers count for llm synthetic jobs",
+	    "items": [
+		 {
+			"value": 3840,
+			"reason": "support higher number of executors"
+		 }
+	    ]
     }
 }
