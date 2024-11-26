@@ -154,5 +154,14 @@
 			"reason": "support higher number of executors"
 		 }
 	    ]
+    },
+    "DYNAMIC_PROMPTS_SERIES_IN_A_SINGLE_GENERATION": {
+	    "description": "number of prompt files generated in single task",
+	    "items": [
+		 {
+			"value": 20,
+			"reason": "try handle timeouts"
+		 }
+	    ]
     }
 }
