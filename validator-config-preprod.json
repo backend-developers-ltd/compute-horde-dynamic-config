@@ -133,6 +133,10 @@
 		 {
 			"value": 3840,
 			"reason": "support higher number of executors"
+		 },
+		 {
+			"value": 7680,
+			"reason": "support higher number of executors"
 		 }
 	    ]
     },
