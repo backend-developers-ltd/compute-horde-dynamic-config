@@ -100,6 +100,15 @@
       }
     ]
   },
+  "DYNAMIC_WEIGHT_REVEALING_TTL": {
+    "description": "Reaveal timeout in seconds",
+    "items": [
+      {
+	"value": 240,
+	"reason": "Less false reveal errors"
+      }
+    ]
+  },
   "DYNAMIC_MAX_WEIGHT": {
     "description": "This should be synced with the hyperparam",
     "items": [
