@@ -187,5 +187,14 @@
 			"reason": "try handle timeouts"
 		 }
 	    ]
+    },
+    "DYNAMIC_LLM_ANSWER_S3_DOWNLOAD_TIMEOUT_SECONDS": {
+	    "description": "Total timeout for downloading answer files from S3",
+	    "items": [
+		 {
+			"value": 15.0,
+			"reason": "Some valis are failing after the default 5.0s"
+		 }
+	    ]
     }
 }
