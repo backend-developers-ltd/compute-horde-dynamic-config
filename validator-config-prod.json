@@ -192,7 +192,7 @@
 	    "description": "Total timeout for downloading answer files from S3",
 	    "items": [
 		 {
-			"value": 15.0,
+			"value": 30.0,
 			"reason": "Some valis are failing after the default 5.0s"
 		 }
 	    ]
