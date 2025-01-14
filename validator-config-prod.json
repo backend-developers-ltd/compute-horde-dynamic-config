@@ -144,6 +144,11 @@
                 "value": "spin_up-4min.gpu-24gb=65,always_on.llm.a6000=35",
                 "reason": "Increase a6000 class weight to 35%",
 		"effective_from": "2024-12-04T10:50:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=55,always_on.llm.a6000=45",
+                "reason": "Increase a6000 class weight to 45%",
+		"effective_from": "2025-01-14T11:45:24.000Z"
             }
         ]
     },
@@ -162,6 +167,11 @@
 		 {
 			"value": 3840,
 			"reason": "support higher number of executors"
+		 },
+		 {
+			"value": 15360,
+			"effective_from": "2025-01-14T11:45:24.000Z",
+			"reason": "support higher number of executors"
 		 }
 	    ]
     },
@@ -176,6 +186,11 @@
                 "value": "always_on.llm.a6000=10",
                 "reason": "Increase a6000 executor class limit to 10",
 		"effective_from": "2024-12-02T13:45:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=50",
+                "reason": "Increase a6000 executor class limit to 50",
+		"effective_from": "2025-01-14T11:45:24.000Z"
             }
 	    ]
     },
