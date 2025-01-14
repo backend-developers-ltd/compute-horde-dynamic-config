@@ -3,8 +3,18 @@
     "description": "The weights version for synthetic jobs",
     "items": [
       {
+        "value": 2,
+        "reason": "enable anti weight copying dance"
+      },
+      {
+        "value": 3,
+        "reason": "binary score (0 or 1 * dancing bonus)",
+        "effective_from": "2024-08-29T06:28:24.000Z"
+      },
+      {
         "value": 4,
-        "reason": "optimized hashcat jobs delivery"
+        "reason": "optimized job sending flow",
+        "effective_from": "2024-10-03T10:43:20.000Z"
       }
     ]
   },
@@ -21,8 +31,18 @@
     "description": "The bonus rate for miners changing their horde size",
     "items": [
       {
-        "value": 1.3,
+        "value": 1.15,
         "reason": "anti weight copying bonus"
+      },
+      {
+        "value": 3.0,
+        "reason": "anti weight copying bonus from 15% -> 200%",
+        "effective_from": "2024-08-29T06:28:24.000Z"
+      },
+      {
+        "value": 1.3,
+        "reason": "anti weight copying bonus from 200 -> 30%",
+        "effective_from": "2024-09-16T09:25:00.000Z"
       }
     ]
   },
@@ -48,8 +68,8 @@
     "description": "In blocks. This should be synced with the hyperparam",
     "items": [
       {
-        "value": 722,
-        "reason": "This value assures the reveal happens after two epochs"
+	"value": 722,
+	"reason": "This value assures the reveal happens after two epochs"
       }
     ]
   },
@@ -77,6 +97,15 @@
       {
 	"value": 15,
 	"reason": "Ensure revealing does not happend outside of the window"
+      }
+    ]
+  },
+  "DYNAMIC_WEIGHT_REVEALING_TTL": {
+    "description": "Reaveal timeout in seconds",
+    "items": [
+      {
+	"value": 240,
+	"reason": "Less false reveal errors"
       }
     ]
   },
@@ -115,6 +144,11 @@
                 "value": "spin_up-4min.gpu-24gb=65,always_on.llm.a6000=35",
                 "reason": "Increase a6000 class weight to 35%",
 		"effective_from": "2024-12-04T10:50:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=55,always_on.llm.a6000=45",
+                "reason": "Increase a6000 class weight to 45%",
+		"effective_from": "2025-01-14T11:45:24.000Z"
             }
         ]
     },
@@ -135,7 +169,8 @@
 			"reason": "support higher number of executors"
 		 },
 		 {
-			"value": 7680,
+			"value": 15360,
+			"effective_from": "2025-01-14T11:45:24.000Z",
 			"reason": "support higher number of executors"
 		 }
 	    ]
@@ -151,7 +186,30 @@
                 "value": "always_on.llm.a6000=10",
                 "reason": "Increase a6000 executor class limit to 10",
 		"effective_from": "2024-12-02T13:45:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=50",
+                "reason": "Increase a6000 executor class limit to 50",
+		"effective_from": "2025-01-14T11:45:24.000Z"
             }
+	    ]
+    },
+    "DYNAMIC_PROMPTS_SERIES_IN_A_SINGLE_GENERATION": {
+	    "description": "number of prompt files generated in single task",
+	    "items": [
+		 {
+			"value": 20,
+			"reason": "try handle timeouts"
+		 }
+	    ]
+    },
+    "DYNAMIC_LLM_ANSWER_S3_DOWNLOAD_TIMEOUT_SECONDS": {
+	    "description": "Total timeout for downloading answer files from S3",
+	    "items": [
+		 {
+			"value": 30.0,
+			"reason": "Some valis are failing after the default 5.0s"
+		 }
 	    ]
     }
 }
