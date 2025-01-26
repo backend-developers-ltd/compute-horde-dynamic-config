@@ -235,5 +235,14 @@
 			"reason": "it's just the way it is now"
 		 }
 	    ]
+    },
+    "DYNAMIC_SYNTHETIC_STREAMING_JOB_READY_TIMEOUT": {
+	    "description": "That's between ",
+	    "items": [
+		 {
+			"value": 45,
+			"reason": "it's just the way it is now"
+		 }
+	    ]
     }
 }
