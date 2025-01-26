@@ -231,7 +231,7 @@
 	    "description": "These executor classes use streaming",
 	    "items": [
 		 {
-			"value": ["always_on.llm.a6000"],
+			"value": "always_on.llm.a6000,",
 			"reason": "it's just the way it is now"
 		 }
 	    ]
