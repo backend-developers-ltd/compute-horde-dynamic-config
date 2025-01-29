@@ -164,6 +164,11 @@
                 "value": "spin_up-4min.gpu-24gb=5,always_on.llm.a6000=95",
                 "reason": "Increase a6000 class weight to 95%",
 		"effective_from": "2025-01-17T14:00:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=100",
+                "reason": "Only A6000 supported",
+		"effective_from": "2025-01-29T11:45:24.000Z"
             }
         ]
     },
