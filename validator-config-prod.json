@@ -231,5 +231,23 @@
 			"reason": "Some valis are failing after the default 5.0s"
 		 }
 	    ]
+    },
+    "DYNAMIC_SYNTHETIC_STREAMING_JOB_EXECUTOR_CLASSES": {
+	    "description": "These executor classes use streaming for synthetic jobs",
+	    "items": [
+		 {
+			"value": "always_on.llm.a6000,",
+			"reason": ""
+		 }
+	    ]
+    },
+    "DYNAMIC_SYNTHETIC_STREAMING_JOB_READY_TIMEOUT": {
+	    "description": "Time to preprare certs and nginx",
+	    "items": [
+		 {
+			"value": 45,
+			"reason": ""
+		 }
+	    ]
     }
 }
