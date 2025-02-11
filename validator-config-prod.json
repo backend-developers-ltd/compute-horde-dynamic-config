@@ -216,6 +216,11 @@
                 "value": "always_on.llm.a6000=50",
                 "reason": "Increase a6000 executor class limit to 50",
 		"effective_from": "2025-01-14T11:45:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=100",
+                "reason": "Increase a6000 executor class limit to 100",
+		"effective_from": "2025-02-11T11:50:24.000Z"
             }
 	    ]
     },
