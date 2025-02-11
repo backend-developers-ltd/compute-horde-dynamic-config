@@ -192,6 +192,11 @@
 			"value": 15360,
 			"effective_from": "2025-01-14T11:45:24.000Z",
 			"reason": "support higher number of executors"
+		 },
+		 {
+			"value": 30720,
+			"effective_from": "2025-02-11T08:15:24.000Z",
+			"reason": "support higher number of executors"
 		 }
 	    ]
     },
