@@ -259,5 +259,32 @@
 			"reason": "it's just the way it is now"
 		 }
 	    ]
+    },
+    "DYNAMIC_BURN_TARGET_SS58ADDRESSES": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": "5HBVrFGy6oYhhh71m9fFGYD7zbKyAeHnWN8i8s9fJTBMCtEE,5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3",
+			"reason": "us and OTF for testing"
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_RATE": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.9,
+			"reason": ""
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_PARTITION": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.9,
+			"reason": ""
+		 }
+	    ]
     }
 }
