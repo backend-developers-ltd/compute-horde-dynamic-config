@@ -259,5 +259,32 @@
 			"reason": ""
 		 }
 	    ]
+    },
+    "DYNAMIC_BURN_TARGET_SS58ADDRESSES": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": "5Dce9TSvF4yA9cMzSYqd3XGK4nRBAbKoPbmX5PvZ8PpkfnG2,5ENjb4edZQkBpoUUCRESfWUrRFtdo2igBWCfvTVHZ1J27Fqx,5DcHfgGBgq9sUE4gduNZ8wzyEjkf3PJwrWsaAdFeG1nxD2FU",
+			"reason": "burn targets"
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_RATE": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.9,
+			"reason": ""
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_PARTITION": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.9,
+			"reason": ""
+		 }
+	    ]
     }
 }
