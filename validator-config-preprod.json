@@ -264,8 +264,8 @@
 	    "description": "",
 	    "items": [
 		 {
-			"value": "5HBVrFGy6oYhhh71m9fFGYD7zbKyAeHnWN8i8s9fJTBMCtEE,5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3",
-			"reason": "us and OTF for testing"
+			"value": "5Dce9TSvF4yA9cMzSYqd3XGK4nRBAbKoPbmX5PvZ8PpkfnG2,5ENjb4edZQkBpoUUCRESfWUrRFtdo2igBWCfvTVHZ1J27Fqx,5DcHfgGBgq9sUE4gduNZ8wzyEjkf3PJwrWsaAdFeG1nxD2FU",
+			"reason": "burn targets"
 		 }
 	    ]
     },
@@ -282,7 +282,7 @@
 	    "description": "",
 	    "items": [
 		 {
-			"value": 0.9,
+			"value": 0.98,
 			"reason": ""
 		 }
 	    ]
