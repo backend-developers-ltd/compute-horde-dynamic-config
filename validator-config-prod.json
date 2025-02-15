@@ -264,8 +264,8 @@
 	    "description": "",
 	    "items": [
 		 {
-			"value": "5Dce9TSvF4yA9cMzSYqd3XGK4nRBAbKoPbmX5PvZ8PpkfnG2,5ENjb4edZQkBpoUUCRESfWUrRFtdo2igBWCfvTVHZ1J27Fqx,5DcHfgGBgq9sUE4gduNZ8wzyEjkf3PJwrWsaAdFeG1nxD2FU",
-			"reason": "burn targets"
+			"value": "5Dce9TSvF4yA9cMzSYqd3XGK4nRBAbKoPbmX5PvZ8PpkfnG2,5ENjb4edZQkBpoUUCRESfWUrRFtdo2igBWCfvTVHZ1J27Fqx,5DcHfgGBgq9sUE4gduNZ8wzyEjkf3PJwrWsaAdFeG1nxD2FU,5CZpUEgP19qjzsufcUk5UPEfxq7KEeaoYAviXRZQqhErQhRu,5Ggm2VMwX8jSTrsjRsW48Y6LfhbSKnA5WoxWgz3V1DdwGNPY,5Ehgi1tfpDXVpCt4K8TyxHJGkD29EqVVVXT77CgQNEjYWKZn,5HarWB5eT2UQsrrrZG5M6CReJUikNnJaWTWiQcb34ApT5Q23,5Ef6PU7Qq6gPZYbDpZNURa2FCX635cnt9hMahrG63gAV36Um,5HGrSUV6XwtgGC8ZDuUtVerUSU5TqJitnjakkaARXhxpnWcw,5F4DGBFMvg1HbWgrexLx915gCUzo42y8gyEo4scKTtHq6sY9",
+			"reason": "more burn targets to fight weight copiers more effectively"
 		 }
 	    ]
     },
@@ -282,7 +282,7 @@
 	    "description": "",
 	    "items": [
 		 {
-			"value": 0.98,
+			"value": 0.975,
 			"reason": ""
 		 }
 	    ]
