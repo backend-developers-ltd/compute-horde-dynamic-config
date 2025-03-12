@@ -88,5 +88,32 @@
         "reason": "Default value"
       }
     ]
+  },
+  "DYNAMIC_RECEIPT_TRANSFER_INTERVAL": {
+    "description": "",
+    "items": [
+   {
+    "value": 10,
+    "reason": "High value for initial release."
+   }
+    ]
+  },
+  "DYNAMIC_JOB_FAILURE_BLACKLIST_TIME_SECONDS": {
+    "description": "",
+    "items": [
+   {
+    "value": 1,
+    "reason": "Low value for initial release."
+   }
+    ]
+  },
+  "DYNAMIC_JOB_CHEATED_BLACKLIST_TIME_SECONDS": {
+    "description": "",
+    "items": [
+   {
+    "value": 1,
+    "reason": "Low value for initial release."
+   }
+    ]
   }
 }
