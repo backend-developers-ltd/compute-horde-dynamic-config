@@ -287,6 +287,15 @@
 		 }
 	    ]
     },
+    "DYNAMIC_RECEIPT_TRANSFER_ENABLED": {
+      "description": "",
+      "items": [
+     {
+      "value": true,
+      "reason": "Needed for reliability of organic job routing"
+     }
+      ]
+    },
     "DYNAMIC_RECEIPT_TRANSFER_INTERVAL": {
       "description": "",
       "items": [
