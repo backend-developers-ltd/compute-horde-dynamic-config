@@ -273,8 +273,8 @@
 	    "description": "",
 	    "items": [
 		 {
-			"value": 0.9,
-			"reason": ""
+			"value": 0.995,
+			"reason": "The SN12 alpha price has increased significantly. We are adjusting the burn rate to avoid encouraging too many miners until we actually need more GPUs."
 		 }
 	    ]
     },
