@@ -7,5 +7,18 @@
         "reason": "Needed for reliability of organic job routing"
       }
     ]
+  },
+  "DYNAMIC_PRELOAD_DOCKER_JOB_IMAGES": {
+    "description": "List of Docker images to preload on the executors",
+    "items": [
+      {
+        "value": [
+          "backenddevelopersltd/compute-horde-job:v0-latest",
+          "backenddevelopersltd/compute-horde-job:v1-latest",
+          "backenddevelopersltd/compute-horde-prompt-solver:v0-latest"
+        ],
+        "reason": "Needed for executor jobs, otherwise they will time out while pulling images"
+      }
+    ]
   }
 }
