@@ -15,7 +15,9 @@
         "value": [
           "backenddevelopersltd/compute-horde-job:v0-latest",
           "backenddevelopersltd/compute-horde-job:v1-latest",
-          "backenddevelopersltd/compute-horde-prompt-solver:v0-latest"
+          "backenddevelopersltd/compute-horde-prompt-solver:v0-latest",
+          "diagonalge/person_synth:latest",
+          "diagonalge/tuning_validator_diffusion:latest"
         ],
         "reason": "Needed for executor jobs, otherwise they will time out while pulling images"
       }
