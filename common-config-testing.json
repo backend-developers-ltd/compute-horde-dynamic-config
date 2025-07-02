@@ -1,1 +1,11 @@
-{}
+{
+  "DYNAMIC_EXECUTOR_STARTUP_TIME_LIMIT": {
+    "description": "",
+    "items": [
+      {
+        "value": 10,
+        "reason": "5 may be too low for the amount of checks we do there"
+      }
+    ]
+  }
+}
