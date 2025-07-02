@@ -318,7 +318,7 @@
       "description": "",
       "items": [
      {
-      "value": False,
+      "value": false,
       "reason": "Temporarily ignore allowance on preprod for reliability"
      }
       ]
