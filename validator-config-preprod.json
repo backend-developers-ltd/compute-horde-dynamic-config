@@ -313,5 +313,14 @@
       "reason": "Low value for initial release."
      }
       ]
+    },
+    "DYNAMIC_CHECK_ALLOWANCE_WHILE_ROUTING": {
+      "description": "",
+      "items": [
+     {
+      "value": False,
+      "reason": "Temporarily ignore allowance on preprod for reliability"
+     }
+      ]
     }
 }
