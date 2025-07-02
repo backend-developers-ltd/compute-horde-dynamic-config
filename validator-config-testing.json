@@ -1,0 +1,326 @@
+{
+  "DYNAMIC_WEIGHTS_VERSION": {
+    "description": "The weights version for synthetic jobs",
+    "items": [
+      {
+        "value": 2,
+        "reason": "enable anti weight copying dance"
+      },
+      {
+        "value": 3,
+        "reason": "binary score (0 or 1 * dancing bonus)",
+        "effective_from": "2024-08-29T06:28:24.000Z"
+      },
+      {
+        "value": 4,
+        "reason": "optimized job sending flow",
+        "effective_from": "2024-10-03T10:43:20.000Z"
+      }
+    ]
+  },
+  "DYNAMIC_SYNTHETIC_JOBS_FLOW_VERSION": {
+    "description": "The synthetic jobs flow version",
+    "items": [
+      {
+        "value": 2,
+        "reason": "enable more robust validator job timing and scoring"
+      }
+    ]
+  },
+  "DYNAMIC_MANIFEST_SCORE_MULTIPLIER": {
+    "description": "The bonus rate for miners changing their horde size",
+    "items": [
+      {
+        "value": 1.15,
+        "reason": "anti weight copying bonus"
+      },
+      {
+        "value": 3.0,
+        "reason": "anti weight copying bonus from 15% -> 200%",
+        "effective_from": "2024-08-29T06:28:24.000Z"
+      },
+      {
+        "value": 1.3,
+        "reason": "anti weight copying bonus from 200 -> 30%",
+        "effective_from": "2024-09-16T09:25:00.000Z"
+      }
+    ]
+  },
+  "DYNAMIC_BLOCK_FINALIZATION_NUMBER": {
+    "description": "After this many blocks pass, a block can be considered final",
+    "items": [
+      {
+        "value": 3,
+        "reason": "Before 3 blocks pass, subtensor may be in disagreement"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_WEIGHTS_ENABLED": {
+    "description": "This should be synced with the hyperparam",
+    "items": [
+      {
+        "value": false,
+        "reason": "False"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_WEIGHTS_INTERVAL": {
+    "description": "In blocks. This should be synced with the hyperparam",
+    "items": [
+      {
+	"value": 722,
+	"reason": "This value assures the reveal happens after two epochs"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_START_OFFSET": {
+    "description": "In blocks. The offset separating commit and reveal windows in the commit-reveal interval",
+    "items": [
+      {
+	"value": 361,
+	"reason": "Use the first epoch for revealing and the second for committing"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_COMMIT_END_BUFFER": {
+    "description": "In blocks. The buffer at the end of the commit window, in which no further commiting allowed.",
+    "items": [
+      {
+	"value": 15,
+	"reason": "Ensure commiting does not happen outside of the window"
+      }
+    ]
+  },
+  "DYNAMIC_COMMIT_REVEAL_REVEAL_END_BUFFER": {
+    "description": "In blocks. The buffer at the end of the reveal window, in which no further revealing allowed.",
+    "items": [
+      {
+	"value": 15,
+	"reason": "Ensure revealing does not happend outside of the window"
+      }
+    ]
+  },
+  "DYNAMIC_WEIGHT_REVEALING_TTL": {
+    "description": "Reaveal timeout in seconds",
+    "items": [
+      {
+	"value": 240,
+	"reason": "Less false reveal errors"
+      }
+    ]
+  },
+  "DYNAMIC_MAX_WEIGHT": {
+    "description": "This should be synced with the hyperparam",
+    "items": [
+      {
+        "value": 65535,
+        "reason": "Default value"
+      }
+    ]
+  },
+    "DYNAMIC_EXECUTOR_CLASS_WEIGHTS": {
+        "description": "executor class weights",
+        "items": [
+            {
+                "value": "spin_up-4min.gpu-24gb=95,always_on.llm.a6000=5",
+                "reason": "Increase a6000 class weight to 5%"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=90,always_on.llm.a6000=10",
+                "reason": "Increase a6000 class weight to 10%",
+		"effective_from": "2024-10-29T22:14:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=85,always_on.llm.a6000=15",
+                "reason": "Increase a6000 class weight to 15%",
+		"effective_from": "2024-10-31T13:10:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=75,always_on.llm.a6000=25",
+                "reason": "Increase a6000 class weight to 25%",
+		"effective_from": "2024-12-02T13:45:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=65,always_on.llm.a6000=35",
+                "reason": "Increase a6000 class weight to 35%",
+		"effective_from": "2024-12-04T10:50:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=55,always_on.llm.a6000=45",
+                "reason": "Increase a6000 class weight to 45%",
+		"effective_from": "2025-01-14T11:45:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=45,always_on.llm.a6000=55",
+                "reason": "Increase a6000 class weight to 55%",
+		"effective_from": "2025-01-15T13:45:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=25,always_on.llm.a6000=75",
+                "reason": "Increase a6000 class weight to 75%",
+		"effective_from": "2025-01-16T16:55:24.000Z"
+            },
+            {
+                "value": "spin_up-4min.gpu-24gb=5,always_on.llm.a6000=95",
+                "reason": "Increase a6000 class weight to 95%",
+		"effective_from": "2025-01-17T14:00:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=100",
+                "reason": "Only A6000 supported",
+		"effective_from": "2025-01-29T11:45:24.000Z"
+            }
+        ]
+    },
+    "DYNAMIC_MAX_PROMPT_SERIES": {
+	 "description": "pregenerated prompt series count",
+	 "items": [
+		 {
+			"value": 3840,
+			"reason": "support higher number of executors"
+		 }
+	 ]
+    },
+    "DYNAMIC_TARGET_NUMBER_OF_PROMPT_SAMPLES_READY": {
+	    "description": "prepared answers count for llm synthetic jobs",
+	    "items": [
+		 {
+			"value": 3840,
+			"reason": "support higher number of executors"
+		 },
+		 {
+			"value": 15360,
+			"effective_from": "2025-01-14T11:45:24.000Z",
+			"reason": "support higher number of executors"
+		 },
+		 {
+			"value": 30720,
+			"effective_from": "2025-02-11T08:15:24.000Z",
+			"reason": "support higher number of executors"
+		 }
+	    ]
+    },
+    "DYNAMIC_MINER_MAX_EXECUTORS_PER_CLASS": {
+	    "description": "executor class limits",
+	    "items": [
+		 {
+			"value": "always_on.llm.a6000=5",
+			"reason": "support higher number of executors"
+		 },
+            {
+                "value": "always_on.llm.a6000=10",
+                "reason": "Increase a6000 executor class limit to 10",
+		"effective_from": "2024-12-02T13:45:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=50",
+                "reason": "Increase a6000 executor class limit to 50",
+		"effective_from": "2025-01-14T11:45:24.000Z"
+            },
+            {
+                "value": "always_on.llm.a6000=100",
+                "reason": "Increase a6000 executor class limit to 100",
+		"effective_from": "2025-02-11T11:50:24.000Z"
+            }
+	    ]
+    },
+    "DYNAMIC_PROMPTS_SERIES_IN_A_SINGLE_GENERATION": {
+	    "description": "number of prompt files generated in single task",
+	    "items": [
+		 {
+			"value": 20,
+			"reason": "try handle timeouts"
+		 }
+	    ]
+    },
+    "DYNAMIC_LLM_ANSWER_S3_DOWNLOAD_TIMEOUT_SECONDS": {
+	    "description": "Total timeout for downloading answer files from S3",
+	    "items": [
+		 {
+			"value": 30.0,
+			"reason": "Some valis are failing after the default 5.0s"
+		 }
+	    ]
+    },
+    "DYNAMIC_SYNTHETIC_STREAMING_JOB_EXECUTOR_CLASSES": {
+	    "description": "These executor classes use streaming",
+	    "items": [
+		 {
+			"value": "always_on.llm.a6000,",
+			"reason": "it's just the way it is now"
+		 }
+	    ]
+    },
+    "DYNAMIC_SYNTHETIC_STREAMING_JOB_READY_TIMEOUT": {
+	    "description": "That's between ",
+	    "items": [
+		 {
+			"value": 45,
+			"reason": "it's just the way it is now"
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_TARGET_SS58ADDRESSES": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": "5Dce9TSvF4yA9cMzSYqd3XGK4nRBAbKoPbmX5PvZ8PpkfnG2,5ENjb4edZQkBpoUUCRESfWUrRFtdo2igBWCfvTVHZ1J27Fqx,5DcHfgGBgq9sUE4gduNZ8wzyEjkf3PJwrWsaAdFeG1nxD2FU,5CZpUEgP19qjzsufcUk5UPEfxq7KEeaoYAviXRZQqhErQhRu,5Ggm2VMwX8jSTrsjRsW48Y6LfhbSKnA5WoxWgz3V1DdwGNPY,5Ehgi1tfpDXVpCt4K8TyxHJGkD29EqVVVXT77CgQNEjYWKZn,5HarWB5eT2UQsrrrZG5M6CReJUikNnJaWTWiQcb34ApT5Q23,5Ef6PU7Qq6gPZYbDpZNURa2FCX635cnt9hMahrG63gAV36Um,5HGrSUV6XwtgGC8ZDuUtVerUSU5TqJitnjakkaARXhxpnWcw,5F4DGBFMvg1HbWgrexLx915gCUzo42y8gyEo4scKTtHq6sY9",
+			"reason": "more burn targets to fight weight copiers more effectively"
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_RATE": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.995,
+			"reason": "he SN12 alpha price has increased significantly. We are adjusting the burn rate to avoid encouraging too many miners until we actually need more GPUs."
+		 }
+	    ]
+    },
+    "DYNAMIC_BURN_PARTITION": {
+	    "description": "",
+	    "items": [
+		 {
+			"value": 0.975,
+			"reason": ""
+		 }
+	    ]
+    },
+    "DYNAMIC_RECEIPT_TRANSFER_INTERVAL": {
+      "description": "",
+      "items": [
+     {
+      "value": 10,
+      "reason": "High value for initial release."
+     }
+      ]
+    },
+    "DYNAMIC_JOB_FAILURE_BLACKLIST_TIME_SECONDS": {
+      "description": "",
+      "items": [
+     {
+      "value": 1,
+      "reason": "Low value for initial release."
+     }
+      ]
+    },
+    "DYNAMIC_JOB_CHEATED_BLACKLIST_TIME_SECONDS": {
+      "description": "",
+      "items": [
+     {
+      "value": 1,
+      "reason": "Low value for initial release."
+     }
+      ]
+    },
+    "DYNAMIC_CHECK_ALLOWANCE_WHILE_ROUTING": {
+      "description": "",
+      "items": [
+     {
+      "value": false,
+      "reason": "Temporarily ignore allowance on preprod for reliability"
+     }
+      ]
+    }
+}
