@@ -19,7 +19,8 @@
           "backenddevelopersltd/compute-horde-prompt-solver:v0-latest",
           "backenddevelopersltd/ch-sn56-tuning_vali",
           "backenddevelopersltd/ch-sn56-tuning_validator_diffusion",
-          "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:v0.1.0"
+          "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:v0.1.0",
+          "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:latest"
         ],
         "reason": "Needed for executor jobs, otherwise they will time out while pulling images"
       }
