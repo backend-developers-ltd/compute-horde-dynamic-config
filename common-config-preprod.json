@@ -1,6 +1,6 @@
 {
   "DYNAMIC_EXECUTOR_STARTUP_TIME_LIMIT": {
-    "description": "x",
+    "description": "",
     "items": [
       {
         "value": 10,
