@@ -1,0 +1,27 @@
+name: Sync map contract - validator prod - scheduled
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: "bactensor/rail-contracts"
+          ref: "master"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "scripts/requirements.txt"
+      - name: Install dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Sync validator config to contracs
+        env:
+          RPC_URL: "https://lite.chain.opentensor.ai"
+          PRIVATE_KEY: ${{ secrets.MAP_CONTRACT_OWNER_PRIVATE_KEY }}
+          CONTRACT_ADDRESS: ${{ vars.VALIDATOR_MAP_CONTRACT_ADDRESS }}
+        run: python scripts/map_cli.py "$CONTRACT_ADDRESS" sync --env prod --service validator
