@@ -115,5 +115,14 @@
     "reason": "Low value for initial release."
    }
     ]
+  },
+  "DYNAMIC_BURN_TARGET_SS58ADDRESSES": {
+	"description": "",
+	"items": [
+	 {
+		"value": "5DburNsKfGqRGUjCtRpCbnWzLEmi3CjUijHqCd6nLmAR3DSg,5EburNXDNi5FFNP1w4KN2DLonna3rpxXAknmTgN3LoE5GeG7,5FbURnVruKQ9bkrWotdk4sY6fKbA4WcXoAELVHeXQgUWV9cR,5GBUrnJUeispCdxUu6fDmPQDRPMzY22BB4pP3i3oQLSCXmr6",
+		"reason": "Adding burn addresses on staging - sn2"
+	 }
+	]
   }
 }
