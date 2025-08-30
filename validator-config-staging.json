@@ -124,5 +124,23 @@
 		"reason": "Adding burn addresses on staging - sn2"
 	 }
 	]
-  }
+  },
+  "DYNAMIC_BURN_RATE": {
+	"description": "",
+	"items": [
+	 {
+		"value": 0.9,
+		"reason": "Adding burn on staging"
+	 }
+	]
+  },
+  "DYNAMIC_BURN_PARTITION": {
+	"description": "",
+	"items": [
+	 {
+		"value": 0.9,
+		"reason": "Adding burn on staging"
+	 }
+	]
+  },
 }
