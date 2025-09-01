@@ -39,8 +39,8 @@
     "description": "This should be synced with the hyperparam",
     "items": [
       {
-        "value": true,
-        "reason": "True"
+        "value": false,
+        "reason": "False"
       }
     ]
   },
