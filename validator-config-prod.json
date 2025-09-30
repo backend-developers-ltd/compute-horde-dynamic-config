@@ -322,5 +322,14 @@
         "reason": "Low value for initial release."
       }
     ]
+  },
+  "DYNAMIC_BLOCK_ALLOWANCE_MULTIPLIER": {
+    "description": "Multiplier applied to calculated block allowances",
+    "items": [
+      {
+        "value": 100.0,
+        "reason": "Initial high value to allow for some jobs to go through"
+      }
+    ]
   }
 }
