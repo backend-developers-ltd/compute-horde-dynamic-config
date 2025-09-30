@@ -48,8 +48,8 @@
     "description": "In blocks. This should be synced with the hyperparam",
     "items": [
       {
-	"value": 722,
-	"reason": "This value assures the reveal happens after two epochs"
+        "value": 722,
+        "reason": "This value assures the reveal happens after two epochs"
       }
     ]
   },
@@ -57,8 +57,8 @@
     "description": "In blocks. The offset separating commit and reveal windows in the commit-reveal interval",
     "items": [
       {
-	"value": 361,
-	"reason": "Use the first epoch for revealing and the second for committing"
+        "value": 361,
+        "reason": "Use the first epoch for revealing and the second for committing"
       }
     ]
   },
@@ -66,8 +66,8 @@
     "description": "In blocks. The buffer at the end of the commit window, in which no further commiting allowed.",
     "items": [
       {
-	"value": 15,
-	"reason": "Ensure commiting does not happen outside of the window"
+        "value": 15,
+        "reason": "Ensure commiting does not happen outside of the window"
       }
     ]
   },
@@ -75,8 +75,8 @@
     "description": "In blocks. The buffer at the end of the reveal window, in which no further revealing allowed.",
     "items": [
       {
-	"value": 15,
-	"reason": "Ensure revealing does not happend outside of the window"
+        "value": 15,
+        "reason": "Ensure revealing does not happend outside of the window"
       }
     ]
   },
@@ -92,55 +92,55 @@
   "DYNAMIC_RECEIPT_TRANSFER_INTERVAL": {
     "description": "",
     "items": [
-   {
-    "value": 10,
-    "reason": "High value for initial release."
-   }
+      {
+        "value": 10,
+        "reason": "High value for initial release."
+      }
     ]
   },
   "DYNAMIC_JOB_FAILURE_BLACKLIST_TIME_SECONDS": {
     "description": "",
     "items": [
-   {
-    "value": 1,
-    "reason": "Low value for initial release."
-   }
+      {
+        "value": 1,
+        "reason": "Low value for initial release."
+      }
     ]
   },
   "DYNAMIC_JOB_CHEATED_BLACKLIST_TIME_SECONDS": {
     "description": "",
     "items": [
-   {
-    "value": 1,
-    "reason": "Low value for initial release."
-   }
+      {
+        "value": 1,
+        "reason": "Low value for initial release."
+      }
     ]
   },
   "DYNAMIC_BURN_TARGET_SS58ADDRESSES": {
-	"description": "",
-	"items": [
-	 {
-		"value": "5DburNsKfGqRGUjCtRpCbnWzLEmi3CjUijHqCd6nLmAR3DSg,5EburNXDNi5FFNP1w4KN2DLonna3rpxXAknmTgN3LoE5GeG7,5FbURnVruKQ9bkrWotdk4sY6fKbA4WcXoAELVHeXQgUWV9cR,5GBUrnJUeispCdxUu6fDmPQDRPMzY22BB4pP3i3oQLSCXmr6",
-		"reason": "Adding burn addresses on staging - sn2"
-	 }
-	]
+    "description": "",
+    "items": [
+      {
+        "value": "5DburNsKfGqRGUjCtRpCbnWzLEmi3CjUijHqCd6nLmAR3DSg,5EburNXDNi5FFNP1w4KN2DLonna3rpxXAknmTgN3LoE5GeG7,5FbURnVruKQ9bkrWotdk4sY6fKbA4WcXoAELVHeXQgUWV9cR,5GBUrnJUeispCdxUu6fDmPQDRPMzY22BB4pP3i3oQLSCXmr6",
+        "reason": "Adding burn addresses on staging - sn2"
+      }
+    ]
   },
   "DYNAMIC_BURN_RATE": {
-	"description": "",
-	"items": [
-	 {
-		"value": 0.9,
-		"reason": "Adding burn on staging"
-	 }
-	]
+    "description": "",
+    "items": [
+      {
+        "value": 0.9,
+        "reason": "Adding burn on staging"
+      }
+    ]
   },
   "DYNAMIC_BURN_PARTITION": {
-	"description": "",
-	"items": [
-	 {
-		"value": 0.9,
-		"reason": "Adding burn on staging"
-	 }
-	]
+    "description": "",
+    "items": [
+      {
+        "value": 0.9,
+        "reason": "Adding burn on staging"
+      }
+    ]
   }
 }
