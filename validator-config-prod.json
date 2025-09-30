@@ -331,5 +331,23 @@
         "reason": "Initial high value to allow for some jobs to go through"
       }
     ]
+  },
+  "DYNAMIC_SPENDING_VALIDATION_BLOCK_LEEWAY_LOWER": {
+    "description": "Additional extension of the allowed block range when validating spendings (lower bound)",
+    "items": [
+      {
+        "value": 50,
+        "reason": "Initial high value to allow for some jobs to go through"
+      }
+    ]
+  },
+  "DYNAMIC_SPENDING_VALIDATION_BLOCK_LEEWAY_UPPER": {
+    "description": "Additional extension of the allowed block range when validating spendings (upper bound)",
+    "items": [
+      {
+        "value": 5,
+        "reason": "Initial high value to allow for some jobs to go through"
+      }
+    ]
   }
 }
