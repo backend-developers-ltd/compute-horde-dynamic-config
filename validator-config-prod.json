@@ -273,8 +273,8 @@
     "description": "",
     "items": [
       {
-        "value": 0.99,
-        "reason": "decreasing burn to allow for more compute"
+        "value": 0.97,
+        "reason": "decreasing burn to allow 9-10 A6000"
       }
     ]
   },
