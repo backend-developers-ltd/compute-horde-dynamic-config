@@ -349,5 +349,23 @@
         "reason": "Initial high value to allow for some jobs to go through"
       }
     ]
+  },
+  "DYNAMIC_ROUTING_RELIABILITY_SOFT_CUTOFF": {
+    "description": "Any misbehavior within this rolling window counts towards decreasing the reliability score.",
+    "items": [
+      {
+        "value": -10,
+        "reason": "Tune the misbehavior thersholds to only consider significant amount of recent failures for now"
+      }
+    ]
+  },
+  "DYNAMIC_ROUTING_RELIABILITY_WINDOW_HOURS": {
+    "description": "Any misbehavior within this rolling window counts towards decreasing the reliability score.",
+    "items": [
+      {
+        "value": 0.5,
+        "reason": "Tune the misbehavior thersholds to only consider significant amount of recent failures for now"
+      }
+    ]
   }
 }
