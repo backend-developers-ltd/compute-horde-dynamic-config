@@ -23,5 +23,4 @@ jobs:
         env:
           RPC_URL: "https://lite.chain.opentensor.ai"
           PRIVATE_KEY: ${{ secrets.MAP_CONTRACT_OWNER_PRIVATE_KEY }}
-          CONTRACT_ADDRESS: ${{ vars.MINER_MAP_CONTRACT_ADDRESS }}
-        run: python scripts/map_cli.py "$CONTRACT_ADDRESS" sync --env prod --service miner
+        run: python scripts/map_cli.py 0x570A066b746561D721891F99D533B974914c3b22 sync --env prod --service miner

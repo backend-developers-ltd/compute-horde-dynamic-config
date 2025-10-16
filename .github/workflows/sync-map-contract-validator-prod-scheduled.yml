@@ -23,5 +23,4 @@ jobs:
         env:
           RPC_URL: "https://lite.chain.opentensor.ai"
           PRIVATE_KEY: ${{ secrets.MAP_CONTRACT_OWNER_PRIVATE_KEY }}
-          CONTRACT_ADDRESS: ${{ vars.VALIDATOR_MAP_CONTRACT_ADDRESS }}
-        run: python scripts/map_cli.py "$CONTRACT_ADDRESS" sync --env prod --service validator
+        run: python scripts/map_cli.py 0x6034a34677b7c715EA97ED25Ee6B2A8DcB7c641E sync --env prod --service validator
