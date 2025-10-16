@@ -314,15 +314,6 @@
       }
     ]
   },
-  "DYNAMIC_CHECK_ALLOWANCE_WHILE_ROUTING": {
-    "description": "",
-    "items": [
-      {
-        "value": false,
-        "reason": "Temporarily ignore allowance on preprod for reliability"
-      }
-    ]
-  },
   "DYNAMIC_BLOCK_ALLOWANCE_MULTIPLIER": {
     "description": "Multiplier applied to calculated block allowances",
     "items": [
@@ -354,7 +345,7 @@
     "description": "Any misbehavior within this rolling window counts towards decreasing the reliability score.",
     "items": [
       {
-        "value": -10,
+        "value": -50,
         "reason": "Tune the misbehavior thersholds to only consider significant amount of recent failures for now"
       }
     ]
@@ -363,7 +354,7 @@
     "description": "Any misbehavior within this rolling window counts towards decreasing the reliability score.",
     "items": [
       {
-        "value": 0.5,
+        "value": 6.0,
         "reason": "Tune the misbehavior thersholds to only consider significant amount of recent failures for now"
       }
     ]
