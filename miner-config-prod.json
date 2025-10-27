@@ -17,8 +17,6 @@
           "backenddevelopersltd/compute-horde-job:v0-latest",
           "backenddevelopersltd/compute-horde-job:v1-latest",
           "backenddevelopersltd/compute-horde-prompt-solver:v0-latest",
-          "backenddevelopersltd/ch-sn56-tuning_vali",
-          "backenddevelopersltd/ch-sn56-tuning_validator_diffusion",
           "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:v0.1.0",
           "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:latest",
           "gbalcerzak/video-optimizer:v1.0.2"
