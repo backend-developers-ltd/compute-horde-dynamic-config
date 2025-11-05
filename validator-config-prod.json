@@ -273,8 +273,8 @@
     "description": "",
     "items": [
       {
-        "value": 0.97,
-        "reason": "decreasing burn to allow 9-10 A6000"
+        "value": 0.99,
+        "reason": "increasing burn while waiting for more miners to come"
       }
     ]
   },
