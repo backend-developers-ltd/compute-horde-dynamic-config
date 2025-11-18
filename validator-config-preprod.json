@@ -273,8 +273,8 @@
     "description": "",
     "items": [
       {
-        "value": 0.99,
-        "reason": "increasing burn while waiting for more miners to come"
+        "value": 0.9935,
+        "reason": "increasing burn while waiting for taoflow situation to unfold"
       }
     ]
   },
