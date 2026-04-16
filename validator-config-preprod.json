@@ -314,7 +314,7 @@
       }
     ]
   },
-  "SYNC_ORGANIC_JOBS": {
+  "DYNAMIC_SYNC_ORGANIC_JOBS": {
     "description": "Run the sync implementation of organic jobs",
     "items": [
       {
