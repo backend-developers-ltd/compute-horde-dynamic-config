@@ -313,5 +313,14 @@
         "reason": "Tune the misbehavior thersholds to only consider significant amount of recent failures for now"
       }
     ]
+  },
+  "SYNC_ORGANIC_JOBS": {
+    "description": "Run the sync implementation of organic jobs",
+    "items": [
+      {
+        "value": true,
+        "reason": "enable sync organic jobs"
+      }
+    ]
   }
 }
