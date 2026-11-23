@@ -3,7 +3,7 @@
     "description": "x",
     "items": [
       {
-        "value": 10,
+        "value": 90,
         "reason": "5 may be too low for the amount of checks we do there"
       }
     ]
