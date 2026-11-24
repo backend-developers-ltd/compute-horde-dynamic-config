@@ -19,7 +19,10 @@
           "backenddevelopersltd/compute-horde-prompt-solver:v0-latest",
           "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:v0.1.0",
           "europe-west3-docker.pkg.dev/gen-456515/image-generator/three-gen-image-generator:latest",
-          "gbalcerzak/video-optimizer:v1.0.2"
+          "gbalcerzak/video-optimizer:v1.0.2",
+          "broadinstitute/gatk:4.5.0.0",
+          "google/deepvariant:1.5.0",
+          "quay.io/biocontainers/bcftools:1.20--h8b25389_0"
         ],
         "reason": "Needed for executor jobs, otherwise they will time out while pulling images"
       }
